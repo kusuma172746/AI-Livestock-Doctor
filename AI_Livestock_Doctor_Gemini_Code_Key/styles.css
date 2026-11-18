@@ -1,0 +1,52 @@
+/* High-contrast dark green theme for AI Livestock Doctor */
+:root { color-scheme: dark; }
+.stApp, [data-testid="stAppViewContainer"] {
+  background: linear-gradient(145deg,#081b17 0%,#103b2f 55%,#0d2427 100%) !important;
+  color: #f8fffb !important;
+}
+[data-testid="stSidebar"], [data-testid="stSidebarContent"] {
+  background: #102720 !important;
+  color:#f8fffb !important;
+}
+.stApp p, .stApp span, .stApp label, .stApp h1, .stApp h2, .stApp h3,
+.stApp h4, .stApp li, .stApp small,
+[data-testid="stSidebar"] p, [data-testid="stSidebar"] label {
+  color:#f8fffb !important;
+}
+.stApp [data-testid="stMarkdownContainer"] { color:#f8fffb !important; }
+.hero { background:linear-gradient(105deg,#116e55,#208c72); padding:25px 30px;
+  border-radius:18px; margin:0 0 20px; border:1px solid #72d8ae;
+  box-shadow:0 12px 35px rgba(0,0,0,.2); }
+.hero h1 { color:#fff !important; margin:0; font-size:2.1rem; }
+.hero p { color:#fff !important; margin:8px 0 0; }
+[data-testid="stTextInput"] input,
+[data-testid="stTextArea"] textarea,
+[data-testid="stChatInput"] textarea {
+  background-color:#17392f !important; color:#fff !important;
+  -webkit-text-fill-color:#fff !important; border:1px solid #79bba0 !important;
+}
+input::placeholder,textarea::placeholder { color:#cbded6 !important; opacity:1 !important; }
+[data-baseweb="select"] > div, [data-baseweb="select"] input {
+  background:#17392f !important; color:#fff !important; -webkit-text-fill-color:#fff !important;
+}
+[data-baseweb="select"] svg { fill:#fff !important; }
+[data-baseweb="popover"] [role="listbox"], [role="option"] {
+  background:#183b30 !important; color:#fff !important;
+}
+[data-testid="stFileUploader"] section {
+  background:#17392f !important; color:#fff !important; border:1px dashed #b5e9d1 !important;
+}
+[data-testid="stFileUploader"] section * { color:#fff !important; }
+.stButton button[kind="primary"], [data-testid="stChatInputSubmitButton"] {
+  background:#f067ae !important; color:#fff !important; border:0 !important;
+  font-weight:700 !important;
+}
+.stButton button[kind="primary"] * { color:#fff !important; }
+.stTabs [data-baseweb="tab"] { color:#e6fff5 !important; }
+.stTabs [aria-selected="true"] { border-bottom:3px solid #77e9bd !important; }
+[data-testid="stAlert"] { border-radius:10px; }
+[data-testid="stAlert"] p, [data-testid="stAlert"] span {
+  color:inherit !important;
+}
+[data-testid="stExpander"] { background:#16382f !important; border:1px solid #407a63 !important; }
+a { color:#a9f1d7 !important; }
